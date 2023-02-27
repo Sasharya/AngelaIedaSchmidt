@@ -1,42 +1,112 @@
 <!DOCTYPE html>
 <head>
-    <div style='text-align:center'>
+    <div class="title" style='text-align:center'>
     <meta charset="UTF-8">
     <title>Ângela Ieda Schmidt</title>
+   <link rel="shortcut icon" href="C:\Users\Laís\Documents\Web Dev\HTML - personal file\angela.ico"/>
+   <link href="https://fonts.cdnfonts.com/css/freestyle-script" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Heebo:wght@300&family=Merienda+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
     <style>
         body { 
             background-color: aquamarine;
+        margin: 4px;
         }
         hr {
             background-color: aquamarine;
-            border-style: dotted none none;
-            border-color: #8064c7;
-            border-width: 5px;
-            height: 3px;
+            border: none;
+            height: 150px;
         }
         h1 { 
-            font-family: Palatino, URW Palladio L, serif;
+            font-family: 'Fleur De Leah';
+            font-size: 80px; 
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%)
         }
         h2 { 
-            font-family: Palatino, URW Palladio L, serif;
+            font-family: 'Euphoria Script'; 
+            font-size: 45px;
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -70%)
         }
         h3 { 
-            font-family: Palatino, URW Palladio L, serif;
+            font-family: 'Euphoria Script';
+            font-size: 50px;
+        }
+        h4 { 
+            font-family: 'Euphoria Script';
+            font-size: 50px;
         }
         ul {
-            font-family: Palatino, URW Palladio L, serif;
+            font-family: 'Heebo';
+            font-size: 25px;
         }
+        p {
+            font-family: 'Heebo';
+            font-size: 30px;
+        }
+        div { 
+            background-color: #8064c7;
+        }
+        .title {
+            background-color: aquamarine;
+        }
+        .cloud {
+            background-color: aquamarine;
+            position: relative; 
+            width: 100%;
 
+        }
+        .texto {
+            background-color: transparent;
+            position: relative;
+
+        }
+        .bemvindo {
+            position:absolute;
+            align-items: center;
+            top: -75%;
+            width: 100%;
+        }
+    
+       
+
+        @import url('https://fonts.cdnfonts.com/css/freestyle-script');
+        @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Merienda+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Heebo:wght@300&family=Merienda+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
         </style>
 </head>
 <body>
-    <img width="300px" src="mae.png" alt="Angela Ieda Schmidt Profile Picture">
+    <div class="cloud">
+        <img src='pngwing.com (3).png' alt="Snow" style="width:100%;">
     <h1>Ângela Ieda Schmidt</h1>
-    <h3><em>Tacma Heal e Psicoterapia Reencarnacionista</em></h3>
-    <p>PEDIR DESCRIÇÃO DAS TERAPIAS PRA MÃE</p>
-    <hr size="1"> </hr>
+    <h2><em>Comunicação Multidimensional Co'criadora e Psicoterapia Reencarnacionista</em></h2>
+    </div>
+    <hr>
+    <div class="texto"> 
+        <div class="bemvindo"><h3>Sejam muito bem-vindos!</h3></div>
+    <p>Amados, as ferramentas estão para a autocura assim como a caneta está para o escritor. Somente conhecer não é o bastante, é preciso interagir com elas e se permitir ser guiado pelo processo de expansão. A alma é como uma flor, somente se revela quando está pronta até conhecermos seu verdadeiro potencial e dons únicos. Estou neste espaço-tempo explorando e renovando a cada dia mais a paixão por aprender e simultaneamente compartilhar os diamantes que vamos minerar ao longo da caminhada. Bem-vindos! Contem comigo para auxiliá-los em suas buscas!</p>
 </div>
-    <h3>Cursos Feitos</h3>
+</div>
+<div class="cursos"> 
+<h3>Cursos Feitos</h3>
+</div>
     <ul>
         <li> Licenciada em Pedagogia em Uninter</li>
         <li> Pós Graduação em Educação Infantil em Uninter</li>
@@ -55,8 +125,9 @@
         <li> Curso de Cone Chinês</li>
         <li> Geobiologia Espiritual Ambiental</li>
     </ul>
-    <hr>
+    <div class="cursos oferecidos">
     <h3>Cursos Oferecidos</h3>
+</div>
     <ul>
    
             <li> Cura Multidimensional Arcturiana (iniciante ao mestrado)</li>
@@ -69,8 +140,10 @@
             <li> Oficina de Orgonites</li>
 
 </ul>
-    <hr size="1">
+
+<div class="hobbies">
     <h3>Hobbies:</h3> 
+</div>
     <ul>
         <li>Meditação</li>
         <li>Acampar</li>
@@ -79,8 +152,9 @@
         <li>Ler livros de auto-evolução</li>
         <li>Estar em uma busca diária de como melhorar a vida mais ainda</li>
 </ul>
-<hr>
+<div class="links">
 <h4>Contate-me:</h4>
+</div>
 <ul>
     <li><a href="https://www.facebook.com/angela.schmidt.9862">Facebook</a></li>
     <li><a href="https://api.whatsapp.com/message/AXVDXUBH5WLOE1?autoload=1&app_absent=0">Whatsapp</a></li>
@@ -88,6 +162,7 @@
     <li><a href="https://www.linkedin.com/in/ângela-ieda-schmidt-b2b91546/">LinkedIn</a></li>
     <li><a href="https://goo.gl/maps/JhNBhcUMkSqgPYCcA">Endereço do Consultório</a></li>
 </ul>
+
 </body>
 
 </html>
